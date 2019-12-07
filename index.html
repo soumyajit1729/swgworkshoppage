@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+   .abt{
+   	color:blue;
+   	animation-name: example;
+   	animation-duration: 4s;
+   	animation-iteration-count: infinite;
+   }
+   @keyframes example{
+   	0% {color:red;}
+   	25% {color:green;}
+   	50%{color:blue;}
+   	100%{font-size: 40px;}
+   }
+	.navbar{
+		list-style-type: none;
+		margin:0px;
+		padding:0px;
+		overflow:hidden;
+		background-color: #333;
+	}
+	.navbar li{
+		float:left;
+	}
+	.navbar li a{
+		display: block;
+		color:white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 20px;
+
+	}
+	.navbar li a:hover:not(.active)
+	{
+		background-color: #111;
+	}
+	.active{
+		background-color: #ff66a3;
+	}
+</style>
+
+<head>
+	<title>My first website</title>
+</head>
+
+
+<body bgcolor="yellow">
+	<ul class="navbar" id="nav1">
+		<li><a class="active" href="#">Home</a></li>
+			<li><a href="#">Achievements</a></li>
+			<li><a href="#">Hobbies</a></li>
+			<li><a href="#">Contacts</a></li>
+			<li><a href="contact.html">contact</a></li>
+</ul>
+
+
+	<h1 align="center">Soumyajit</h1>
+
+
+	<img src="download.jpg" height="300" width="400">
+	<h3 align="center">About me</h3>
+	<div class="abt"><p align="center">I am a 2nd year ug student.</p></div>
+	<h3>My Skills</h3>
+	<ol>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Javascript</li>
+	</ol>
+
+</body>
+
+</html>
